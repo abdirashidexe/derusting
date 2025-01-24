@@ -24,6 +24,10 @@ public class StringPractice {
     }
 
     // Iterate over the characters of the string, printing each one on a separate line
+    for (int i = 0; i < word.length(); i++)
+    {
+      System.out.println(word.charAt(i));
+    }
 
     // Create an ArrayList of Strings and assign it to a variable
 
