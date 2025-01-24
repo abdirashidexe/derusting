@@ -20,5 +20,5 @@ As you work through this exercise, write down anything that you needed to look u
 16. how to convert int to string to use a method like toString() but for ints
 17. had to search up @param meaning in java to understand how to then use it in birthYear()
 18. struggled a bit to remember the order of the syntax when making a new object variable (Object objectName = new Object(String s, int n)) for example
-19. learned that it's still considered a local variable if you make it in the main method (i thought i had to make a method inside the main method when working on the get name problem)
+19. learned that it's still considered a local variable if you make it in the main method (i thought i had to make a method inside the main method when working on the get name problem).
 - 
