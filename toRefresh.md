@@ -6,5 +6,9 @@ As you work through this exercise, write down anything that you needed to look u
 2. ArrayList<> should be arraylist(String)
 3. Looked up java methods to find set()
 4. Looked up java collections sort
+5. changed ArrayList .. = New ArrayList<String>(); to List .. = New ArrayList<String>();
+6. added <String> to List .. = New ArrayList<String>(); so it's now List<String> .. = New ArrayList<String>(); (had to look up)
+7. had to change /n to \n
+
 
 - 

@@ -7,7 +7,7 @@ public class ListPractice {
 
   public static void main(String[] args) {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
-    List list = new ArrayList<String>();
+    List<String> list = new ArrayList<String>();
 
     // Add 3 elements to the list (OK to do one-by-one)
     list.add("i0");
@@ -45,7 +45,10 @@ public class ListPractice {
 
     // Iterate over the list using a for-each loop
     // Print each value on a second line
-    //for (String item : list)
+    for (String item : list)
+    {
+      System.out.println("for-each loop: " + item + "\n");
+    }
 
     /*
      * Usage tip!
