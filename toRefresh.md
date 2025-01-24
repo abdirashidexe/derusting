@@ -12,5 +12,6 @@ As you work through this exercise, write down anything that you needed to look u
 8. had to look up to how set a size for an array
 9. had to look up why toString() wasnt working for myArray.toString(). turns out its Arrays.toString(myArray);
 10. had to look up and make sure i was right in using .contains() to find substring and not another method i didn't think of
+11. had to look up method that joins strings without using a loop and .concat
 
 - 
