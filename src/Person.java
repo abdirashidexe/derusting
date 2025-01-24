@@ -6,14 +6,23 @@
 public class Person {
   // Declare a public String instance variable for the name of the person
   // Declare a private int instance variable for the age of the person
-
+  public String name;
+  private int age;
 
   // Create a constructor that takes the name and age of the person
   // and assigns it to the instance variables
+  public Person(String n, int a)
+  {
+    name = n;
+    age = a;
+  }
 
 
   // Create a toString method that gives the name and age of the person
-
+  public String toString()
+  {
+    return "Name: " + name.toString() + ", Age: " + String.valueOf(age);
+  }
 
   // Implement the below public instance method "birthYear"
   // There should NOT be any print statement in this method.

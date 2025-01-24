@@ -16,4 +16,6 @@ As you work through this exercise, write down anything that you needed to look u
 12. found out set could not print element at index so put my set items into an array then iterated. however don't know how i would convert set to a list then iterate.
 13. HashMap does not have order
 14. had to look up myMap.put("existingKey", newValueNum) replaces value but not key (so no duplicate keys in a map)
+15. looked up info about constructor as well as toString() method. made sure to know if i include static, void
+16. how to convert int to string to use a method like toString() but for ints
 - 
