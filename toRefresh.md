@@ -9,6 +9,8 @@ As you work through this exercise, write down anything that you needed to look u
 5. changed ArrayList .. = New ArrayList<String>(); to List .. = New ArrayList<String>();
 6. added <String> to List .. = New ArrayList<String>(); so it's now List<String> .. = New ArrayList<String>(); (had to look up)
 7. had to change /n to \n
+8. had to look up to how set a size for an array
+9. had to look up why toString() wasnt working for myArray.toString(). turns out its Arrays.toString(myArray);
 
 
 - 
