@@ -21,14 +21,40 @@ public class MapPractice {
     System.out.println(myMap.size());
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
+    myMap.put("item_1", 99);
+    System.out.println(myMap);
 
     // Check whether the Map contains a given key
+    if (myMap.containsKey("item_7"))
+    {
+      System.out.println(true);
+    }
+    else
+    {
+      System.out.println(false);
+    }
 
     // Check whether the Map contains a given value
+    if (myMap.containsValue(99))
+    {
+      System.out.println(true);
+    }
+    else
+    {
+      System.out.println(false);
+    }
 
     // Iterate over the keys of the Map, printing each key
+    for (String key : myMap.keySet())
+    {
+      System.out.println("for-each key: " + key);
+    }
 
     // Iterate over the values of the map, printing each value
+    for (Integer value : myMap.values())
+    {
+      System.out.println("for-each value: " + value);
+    }
 
     // Iterate over the entries in the map, printing each key and value
 

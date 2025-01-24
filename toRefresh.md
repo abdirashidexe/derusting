@@ -14,4 +14,6 @@ As you work through this exercise, write down anything that you needed to look u
 10. had to look up and make sure i was right in using .contains() to find substring and not another method i didn't think of
 11. had to look up method that joins strings without using a loop and .concat
 12. found out set could not print element at index so put my set items into an array then iterated. however don't know how i would convert set to a list then iterate.
+13. HashMap does not have order
+14. had to look up myMap.put("existingKey", newValueNum) replaces value but not key (so no duplicate keys in a map)
 - 
