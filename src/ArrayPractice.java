@@ -31,6 +31,10 @@ public class ArrayPractice {
     }
 
     // Iterate over the array using a for-each loop and print out each item
+    for (String item : myArray)
+    {
+      System.out.println("for-each loop: " + item);
+    }
 
     /*
      * Reminder!
