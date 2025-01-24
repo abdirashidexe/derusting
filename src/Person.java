@@ -58,12 +58,16 @@ public class Person {
     System.out.println(mark.toString());
 
     // Get the name of the first person and store it in a local variable
+    String johnsName = john.name;
+    System.out.println(johnsName);
 
     // Using the birthYear method, get the birth year of the first person
     // and store it in a local variable. Input the actual current year (e.g. 2025)
     // as the argument.
+    int johnsBirthYear = john.birthYear(2025);
 
     // In a separate statement, print the local variable holding the birth year.
+    System.out.println(johnsBirthYear);
 
     /**
      * Terminology!
