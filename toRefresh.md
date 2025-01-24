@@ -18,4 +18,6 @@ As you work through this exercise, write down anything that you needed to look u
 14. had to look up myMap.put("existingKey", newValueNum) replaces value but not key (so no duplicate keys in a map)
 15. looked up info about constructor as well as toString() method. made sure to know if i include static, void
 16. how to convert int to string to use a method like toString() but for ints
+17. had to search up @param meaning in java to understand how to then use it in birthYear()
+18. struggled a bit to remember the order of the syntax when making a new object variable (Object objectName = new Object(String s, int n)) for example
 - 

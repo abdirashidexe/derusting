@@ -37,17 +37,25 @@ public class Person {
    * @return The year the person was born
    */
   // (create the instance method here)
+  public int birthYear(int currentYear)
+  {
+    return currentYear-age;
+  }
 
 
   public static void main(String[] args) {
     // Create an instance of Person
+    Person john = new Person("John", 25);
 
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
+    Person mark = new Person("Mark", 30);
 
     // Print the first person
+    System.out.println(john.toString());
 
     // Print the second person
+    System.out.println(mark.toString());
 
     // Get the name of the first person and store it in a local variable
 
