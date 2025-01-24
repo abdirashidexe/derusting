@@ -1,7 +1,5 @@
 import java.util.HashSet;
 import java.util.Set;
-import java.util.List;
-import java.util.ArrayList;
 
 public class SetPractice {
   public static void main(String[] args) {
