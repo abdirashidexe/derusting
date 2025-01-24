@@ -5,5 +5,6 @@ As you work through this exercise, write down anything that you needed to look u
 1. Wrote double instead of float first
 2. ArrayList<> should be arraylist(String)
 3. Looked up java methods to find set()
+4. Looked up java collections sort
 
 - 
